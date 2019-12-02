@@ -14,7 +14,7 @@ def directors_totals(nds)
     directors_total << total
     row_index += 1
   end
-  result = {
+  return result = {
     "Stephen Spielberg" => directors_total[0],
     "Russo Brothers" => directors_total[1],
     "James Cameron" => directors_total[2],
